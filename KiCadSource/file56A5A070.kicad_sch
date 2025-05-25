@@ -19824,7 +19824,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005da736a4")
 		(property "Reference" "C48"
 			(at 272.034 97.282 0)
@@ -19893,7 +19893,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005da737db")
 		(property "Reference" "C52"
 			(at 272.034 132.842 0)

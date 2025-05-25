@@ -1,10 +1,76 @@
-(module VIA-0.5mm-0.3mm (layer F.Cu) (tedit 589614E0)
-  (fp_text reference VIA (at 0 0.635) (layer F.SilkS) hide
-    (effects (font (size 0.2 0.2) (thickness 0.05)))
-  )
-  (fp_text value VIA-0.45-0.25mm (at 0 -1.143) (layer F.Fab) hide
-    (effects (font (size 0.5 0.5) (thickness 0.125)))
-  )
-  (pad 1 thru_hole circle (at 0 0) (size 0.45 0.45) (drill 0.25) (layers *.Cu)
-    (zone_connect 2))
+(footprint "VIA-0.5mm-0.3mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "VIA"
+		(at 0 0.635 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3282deff-4c76-4d97-bf17-9a5ccaf8f6aa")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Value" "VIA-0.45-0.25mm"
+		(at 0 -1.143 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54184e5f-b508-4cad-a21d-5b52f2a76417")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da57bbc1-3c5c-492e-ad72-f7a46d81121f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe3b4feb-6e8a-41ce-902a-32d166f3cd6e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c910fbcf-9c08-41a0-b18a-b6fec9041454")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 0.45 0.45)
+		(drill 0.25)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "fe89b41b-d66a-45c6-a4ed-76b8c4e18143")
+	)
 )

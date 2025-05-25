@@ -14902,7 +14902,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005ba3f235")
 		(property "Reference" "C14"
 			(at 212.344 126.492 0)
@@ -14971,7 +14971,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005ba3f613")
 		(property "Reference" "C12"
 			(at 212.344 52.832 0)
